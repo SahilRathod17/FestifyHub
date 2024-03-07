@@ -1,0 +1,306 @@
+[
+  {
+    "id": "1",
+    "cid": "1",
+    "name": "John Doe",
+    "dob": "1985-01-15",
+    "email": "johndoe@example.com",
+    "phone": "555-1234",
+    "salary": "50000",
+    "deletedat": "null"
+  },
+  {
+    "id": "2",
+    "cid": "1",
+    "name": "Jane Smith",
+    "dob": "1990-07-22",
+    "email": "janesmith@example.com",
+    "phone": "555-5678",
+    "salary": "60000",
+    "deletedat": "null"
+  },
+  {
+    "id": "3",
+    "cid": "1",
+    "name": "Bob Johnson",
+    "dob": "1982-04-30",
+    "email": "bjohnson@example.com",
+    "phone": "555-9012",
+    "salary": "55000",
+    "deletedat": "null"
+  },
+  {
+    "id": "4",
+    "cid": "1",
+    "name": "Emily Davis",
+    "dob": "1995-11-10",
+    "email": "edavis@example.com",
+    "phone": "555-3456",
+    "salary": "65000",
+    "deletedat": "null"
+  },
+  {
+    "id": "5",
+    "cid": "1",
+    "name": "Michael Wilson",
+    "dob": "1978-09-05",
+    "email": "mwilson@example.com",
+    "phone": "555-7890",
+    "salary": "70000",
+    "deletedat": "null"
+  },
+  {
+    "id": "6",
+    "cid": "2",
+    "name": "Sarah Anderson",
+    "dob": "1989-03-18",
+    "email": "sanderson@example.com",
+    "phone": "555-2345",
+    "salary": "55000",
+    "deletedat": "null"
+  },
+  {
+    "id": "7",
+    "cid": "2",
+    "name": "David Thompson",
+    "dob": "1984-06-25",
+    "email": "dthompson@example.com",
+    "phone": "555-6789",
+    "salary": "60000",
+    "deletedat": "null"
+  },
+  {
+    "id": "8",
+    "cid": "2",
+    "name": "Amy Garcia",
+    "dob": "1992-02-12",
+    "email": "agarcia@example.com",
+    "phone": "555-0123",
+    "salary": "55000",
+    "deletedat": "null"
+  },
+  {
+    "id": "9",
+    "cid": "2",
+    "name": "Robert Lee",
+    "dob": "1980-08-20",
+    "email": "rlee@example.com",
+    "phone": "555-4567",
+    "salary": "65000",
+    "deletedat": "null"
+  },
+  {
+    "id": "10",
+    "cid": "2",
+    "name": "Jennifer Hernandez",
+    "dob": "1993-12-07",
+    "email": "jhernandez@example.com",
+    "phone": "555-8901",
+    "salary": "70000",
+    "deletedat": "null"
+  },
+  {
+    "id": "11",
+    "cid": "3",
+    "name": "Thomas Moore",
+    "dob": "1987-02-28",
+    "email": "tmoore@example.com",
+    "phone": "555-3456",
+    "salary": "55000",
+    "deletedat": "null"
+  },
+  {
+    "id": "12",
+    "cid": "3",
+    "name": "Jessica Clark",
+    "dob": "1983-05-15",
+    "email": "jclark@example.com",
+    "phone": "555-7890",
+    "salary": "60000",
+    "deletedat": "null"
+  },
+  {
+    "id": "13",
+    "cid": "3",
+    "name": "Daniel Rodriguez",
+    "dob": "1991-01-22",
+    "email": "drodriguez@example.com",
+    "phone": "555-2345",
+    "salary": "55000",
+    "deletedat": "null"
+  },
+  {
+    "id": "14",
+    "cid": "3",
+    "name": "Laura Hall",
+    "dob": "1981-07-30",
+    "email": "lhall@example.com",
+    "phone": "555-6789",
+    "salary": "65000",
+    "deletedat": "null"
+  },
+  {
+    "id": "15",
+    "cid": "3",
+    "name": "Christopher Young",
+    "dob": "1994-04-12",
+    "email": "cyoung@example.com",
+    "phone": "555-0123",
+    "salary": "70000",
+    "deletedat": "null"
+  },
+  {
+    "admin": {
+      "address": "Ahemdabad",
+      "email": "admin@ldrp.co",
+      "location": {
+        "latitude": 37.4219406,
+        "latitudeDelta": 0.0421,
+        "longitude": -122.0841298,
+        "longitudeDelta": 0.0421
+      },
+      "name": "LDRP ITR",
+      "password": "Abcd@123",
+      "phonenumber": 3332222222,
+      "profileimage": "file:///data/user/0/com.festifyhub/cache/react-native-image-crop-picker/1.png",
+      "state": "Gujarat",
+      "town": "Ahemdabad"
+    },
+    "teacher": {
+      "college_id": "123456",
+      "college_name": "LDRP ITR",
+      "teacher_id": "09876",
+      "name": "Prof. Viru Shahstra Budhe",
+      "department": "Computer Engineering",
+      "profileimage": "file:///data/user/0/com.festifyhub/cache/react-native-image-crop-picker/1.png",
+      "email": "virus@ldrp.co",
+      "password": "Abcd@123",
+      "phonenumber": "8912891289",
+      "events_hosted": [
+        { "id": "5674839", "title": "Hackathon" },
+        { "id": "37583", "title": "Quiz Competition" },
+        { "id": "104758", "title": "Xenesis" }
+      ],
+      "events_request": [
+        { "id": "1826492", "title": "Lsser Gun Fight" },
+        { "id": "748589", "title": "Dumb Charades" },
+        { "id": "02936", "title": "Stand-up Comedy" }
+      ],
+      "ispasswordset": "false"
+    },
+    "student": {
+      "college_id": "123456",
+      "college_name": "LDRP ITR",
+      "name": "Ranchoddas Shyamaldas Chanchhad",
+      "enrollment_number": "121212BE9820",
+      "department": "Information Technology",
+      "profileimage": "file:///data/user/0/com.festifyhub/cache/react-native-image-crop-picker/1.png",
+      "email": "rancho@ldrp.co",
+      "password": "Abcd@123",
+      "phonenumber": 999888000,
+      "events_hosted": [
+        { "id": "5674839", "title": "Hackathon" },
+        { "id": "37583", "title": "Quiz Competition" },
+        { "id": "104758", "title": "Xenesis" }
+      ],
+      "tickets_for_events": [
+        { "id": "1826492", "title": "Lsser Gun Fight" },
+        { "id": "748589", "title": "Dumb Charades" },
+        { "id": "02936", "title": "Stand-up Comedy" }
+      ],
+      "events_attended": [
+        { "id": "1826492", "title": "Lsser Gun Fight" },
+        { "id": "748589", "title": "Dumb Charades" },
+        { "id": "02936", "title": "Stand-up Comedy" }
+      ],
+      "ispasswordset": "false"
+    },
+    "Event": {
+      "id": 1,
+      "event_name": "XENESIS",
+      "event_host": [
+        {
+          "id": 1234,
+          "name": "Devarshi Patel",
+          "profileImage": "",
+          "entity": "STUDENT"
+        },
+        {
+          "id": 4652,
+          "name": "Kevin Miyani",
+          "profileImage": "",
+          "entity": "STUDENT"
+        },
+        {
+          "id": 4321,
+          "name": "Sahil Rathod",
+          "profileImage": "",
+          "entity": "STUDENT"
+        },
+        {
+          "id": 10928,
+          "name": "Miral Kadia",
+          "profileImage": "",
+          "entity": "STUDENT"
+        }
+      ],
+      "event_coordinators": [
+        {
+          "id": 10201,
+          "name": "Prof. Viru Shahstra Buddhe",
+          "profileImage": "",
+          "approved": true,
+          "entity": "TEACHER"
+        }
+      ],
+      "college_id": 10101,
+      "created_by": [
+        {
+          "id": 1234,
+          "name": "Devarshi Patel",
+          "profileImage": "",
+          "entity": "STUDENT",
+          "department": "Information Technology"
+        }
+      ],
+      "college_name": "LDRP-ITR",
+      "restriction": "PRIVATE",
+      "charge": "FREE",
+      "fee": 0,
+      "event_visiblity": "PENDING",
+      "type_of_event": "FEST",
+      "event_description": "Description of this event must be written here by anyone who created this event ",
+      "main_event_id": 1,
+      "is_this_subEvent": false,
+      "sub_events": true,
+      "sub_events_list": [
+        {
+          "event_id": 111234,
+          "name": "Laser Gun",
+          "event_Image": "",
+          "charge": "PAID",
+          "fee": 150
+        },
+        {
+          "event_id": 111278,
+          "name": "Dumb Charades",
+          "event_Image": "",
+          "charge": "PAID",
+          "fee": 50
+        }
+      ],
+      "images": [],
+      "event_date": "22 Jan 2024",
+      "event_time": "07:00 PM",
+      "event_place": "LDRP-ITR, KH-5 circle, Sector-15, Gandhinagar",
+      "event_location_coords": {
+        "latitude": 37.4219406,
+        "latitudeDelta": 0.0421,
+        "longitude": -122.0841298,
+        "longitudeDelta": 0.0421
+      },
+      "number_of_registration": 10,
+      "number_of_attendees": 0
+    }
+  }
+]
