@@ -13,11 +13,9 @@ WORKDIR /usr/src/app
 
 COPY --from=build /usr/src/app .
 
-RUN --mount=type=secret,id=DB_USERNAME \
-    sed -i "s/DB_USERNAME=/DB_USERNAME=$(cat /run/secrets/DB_USERNAME)/" .env.production
-
-RUN --mount=type=secret,id=DB_USERNAME \
-    sed -i "s/DB_PASSWORD=/DB_PASSWORD=$(cat /run/secrets/DB_PASSWORD)/" .env.production
+ENV DB_USERNAME=$DB_USERNAME \
+    DB_PASSWORD=$DB_PASSWORD \
+    DB_PORT=$DB_PORT
 
 RUN npm install --production
 
