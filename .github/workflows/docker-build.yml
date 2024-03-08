@@ -32,7 +32,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t festifyhub .
+          docker build --build-arg DB_USERNAME=$DB_USERNAME --build-arg DB_PASSWORD=$DB_PASSWORD -t festifyhub .
           docker tag festifyhub:latest sahilrathod/festifyhub:latest
 
       - name: Push Docker Image
