@@ -13,7 +13,7 @@ const password = process.env.DB_PASSWORD;
 const port = process.env.PORT;
 
 Connection(username, password);
-app.listen(port, '0.0.0.0/0', () =>
+app.listen(port, '0.0.0.0', () =>
   console.log(`Server is running successfully on PORT ${port}`)
 );
 
