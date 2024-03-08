@@ -13,9 +13,12 @@ WORKDIR /usr/src/app
 
 COPY --from=build /usr/src/app .
 
+ENV DB_USERNAME=$DB_USERNAME \
+    DB_PASSWORD=$DB_PASSWORD \
+    DB_PORT=$DB_PORT
+
 RUN npm install --production
 
 EXPOSE 8000
 
 CMD ["npm", "start"]
-
