@@ -10,7 +10,7 @@ dotenv.config();
 
 const username = process.env.DB_USERNAME;
 const password = process.env.DB_PASSWORD;
-const port = process.env.DB_PORT;
+const port = process.env.DB_PORT || 8000;
 
 Connection(username, password);
 app.listen(port, '0.0.0.0', () =>
