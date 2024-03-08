@@ -6,7 +6,7 @@ import cors from "cors";
 import Routes from "./routes/route.js";
 
 const app = express();
-require('dotenv').config();
+//dotenv.config();
 
 const username = process.env.DB_USERNAME;
 const password = process.env.DB_PASSWORD;
